@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class platercontroller : MonoBehaviour
 {
+    private int a=2;
+
+
+
     [SerializeField]private Rigidbody2D rb;
     public float speed=200f;
     private Animator anim;
